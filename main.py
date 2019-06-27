@@ -57,7 +57,7 @@ def bundle_summary_section():
     issues_html_url = 'https://github.com/%s/narutoblog/issues' % user.get_user().login
 
     summary_section = '''
-# GitHub Issues Blog :tada::tada::tada:
+# Naruto GitHub Issues Blog :tada::tada::tada:
 
 > :alarm_clock: 上次更新: %s
 

@@ -10,7 +10,7 @@ import urllib.parse
 import codecs
 
 user: Github
-ghiblog: Repository
+narutoblog: Repository
 cur_time: str
 
 
@@ -41,20 +41,20 @@ def login():
     user = Github(username, password)
 
 
-def get_ghiblog():
-    global ghiblog
-    ghiblog = user.get_repo('%s/ghiblog' % user.get_user().login)
+def get_narutoblog():
+    global narutoblog
+    narutoblog = user.get_repo('%s/narutoblog' % user.get_user().login)
 
 
 def bundle_summary_section():
-    global ghiblog
+    global narutoblog
     global cur_time
     global user
 
-    total_label_count = ghiblog.get_labels().totalCount
-    total_issue_count = ghiblog.get_issues().totalCount
-    labels_html_url = 'https://github.com/%s/ghiblog/labels' % user.get_user().login
-    issues_html_url = 'https://github.com/%s/ghiblog/issues' % user.get_user().login
+    total_label_count = narutoblog.get_labels().totalCount
+    total_issue_count = narutoblog.get_issues().totalCount
+    labels_html_url = 'https://github.com/%s/narutoblog/labels' % user.get_user().login
+    issues_html_url = 'https://github.com/%s/narutoblog/issues' % user.get_user().login
 
     summary_section = '''
 # GitHub Issues Blog :tada::tada::tada:
@@ -68,10 +68,10 @@ def bundle_summary_section():
 
 
 def bundle_pinned_issues_section():
-    global ghiblog
+    global narutoblog
 
-    pinned_label = ghiblog.get_label(':+1:置顶')
-    pinned_issues = ghiblog.get_issues(labels=(pinned_label,))
+    pinned_label = narutoblog.get_label(':+1:置顶')
+    pinned_issues = narutoblog.get_issues(labels=(pinned_label,))
 
     pinned_issues_section = '\n## 置顶 :thumbsup: \n'
 
@@ -90,7 +90,7 @@ def format_issue_with_labels(issue: Issue):
         labels_str = '\n :label: \t' + sub('|')
 
     for label in labels:
-        labels_str += sub('[%s](https://github.com/%s/ghiblog/labels/%s)\t|\t' % (
+        labels_str += sub('[%s](https://github.com/%s/narutoblog/labels/%s)\t|\t' % (
             label.name, user.get_user().login, urllib.parse.quote(label.name)))
 
     return '- [%s](%s) %s  \t\t\t :alarm_clock:%s %s\n\n' % (
@@ -98,9 +98,9 @@ def format_issue_with_labels(issue: Issue):
 
 
 def bundle_new_created_section():
-    global ghiblog
+    global narutoblog
 
-    new_5_created_issues = ghiblog.get_issues()[:5]
+    new_5_created_issues = narutoblog.get_issues()[:5]
 
     new_created_section = '## 最新 :new: \n'
 
@@ -111,19 +111,19 @@ def bundle_new_created_section():
 
 
 def bundle_list_by_labels_section():
-    global ghiblog
+    global narutoblog
     global user
 
     list_by_labels_section = '## 分类  :card_file_box: \n'
 
-    all_labels = ghiblog.get_labels()
+    all_labels = narutoblog.get_labels()
 
     for label in all_labels:
         temp = ''
         # 这里的count是用来计算该label下有多少issue的, 按理说应该是取issues_in_label的totalCount, 但是不知道为什么取出来的一直都是
         # 所有的issue数量, 之后再优化.
         count = 0
-        issues_in_label = ghiblog.get_issues(labels=(label,))
+        issues_in_label = narutoblog.get_issues(labels=(label,))
         for issue in issues_in_label:
             temp += format_issue(issue)
             count += 1
@@ -162,8 +162,8 @@ def execute():
     # 1. login
     login()
 
-    # 2. get ghiblog
-    get_ghiblog()
+    # 2. get narutoblog
+    get_narutoblog()
 
     # 3. summary section
     summary_section = bundle_summary_section()

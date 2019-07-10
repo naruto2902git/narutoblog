@@ -1,15 +1,21 @@
 
 # Naruto GitHub Issues Blog :tada::tada::tada:
 
-> :alarm_clock: 上次更新: 2019-07-09 00:00:35
+> :alarm_clock: 上次更新: 2019-07-10 00:01:16
 
-共 [5](https://github.com/naruto2902git/narutoblog/labels) 个标签, [4](https://github.com/naruto2902git/narutoblog/issues) 篇博文.
+共 [6](https://github.com/naruto2902git/narutoblog/labels) 个标签, [6](https://github.com/naruto2902git/narutoblog/issues) 篇博文.
 
 ## 置顶 :thumbsup: 
 - [Merge Join vs. Hash Join vs. Nested Loop Join](https://github.com/naruto2902git/narutoblog/issues/3)  <sup>0 :speech_balloon:</sup>  	 :alarm_clock:<sub>2019-07-03 12:23:12</sub> 
 - [Column-Stores vs. Row-Stores](https://github.com/naruto2902git/narutoblog/issues/2)  <sup>0 :speech_balloon:</sup>  	 :alarm_clock:<sub>2019-07-03 07:56:14</sub> 
 - [Spark Partitioner](https://github.com/naruto2902git/narutoblog/issues/1)  <sup>0 :speech_balloon:</sup>  	 :alarm_clock:<sub>2019-06-24 16:46:46</sub> 
 ## 最新 :new: 
+- [Simple IOC AOP MVC ORM](https://github.com/naruto2902git/narutoblog/issues/6) <sup>0 :speech_balloon:</sup>  			 :alarm_clock:<sub>2019-07-09 12:19:08</sub> 
+ :label: 	<sub>|</sub>
+
+- [Kafka Message Format](https://github.com/naruto2902git/narutoblog/issues/5) <sup>0 :speech_balloon:</sup>  			 :alarm_clock:<sub>2019-07-09 08:07:02</sub> 
+ :label: 	<sub>|</sub><sub>[Kafka](https://github.com/naruto2902git/narutoblog/labels/Kafka)	|	</sub>
+
 - [Java Annotation](https://github.com/naruto2902git/narutoblog/issues/4) <sup>0 :speech_balloon:</sup>  			 :alarm_clock:<sub>2019-07-05 11:44:54</sub> 
  :label: 	<sub>|</sub>
 
@@ -18,9 +24,6 @@
 
 - [Column-Stores vs. Row-Stores](https://github.com/naruto2902git/narutoblog/issues/2) <sup>0 :speech_balloon:</sup>  			 :alarm_clock:<sub>2019-07-03 07:56:14</sub> 
  :label: 	<sub>|</sub><sub>[:+1:置顶](https://github.com/naruto2902git/narutoblog/labels/%3A%2B1%3A%E7%BD%AE%E9%A1%B6)	|	</sub>
-
-- [Spark Partitioner](https://github.com/naruto2902git/narutoblog/issues/1) <sup>0 :speech_balloon:</sup>  			 :alarm_clock:<sub>2019-06-24 16:46:46</sub> 
- :label: 	<sub>|</sub><sub>[:+1:置顶](https://github.com/naruto2902git/narutoblog/labels/%3A%2B1%3A%E7%BD%AE%E9%A1%B6)	|	</sub><sub>[Spark](https://github.com/naruto2902git/narutoblog/labels/Spark)	|	</sub>
 
 ## 分类  :card_file_box: 
 
@@ -34,6 +37,12 @@
 
 <details>
 <summary>Java	<sup>0:newspaper:</sup></summary>
+
+</details>
+
+<details>
+<summary>Kafka	<sup>1:newspaper:</sup></summary>
+- [Kafka Message Format](https://github.com/naruto2902git/narutoblog/issues/5)  <sup>0 :speech_balloon:</sup>  	 :alarm_clock:<sub>2019-07-09 08:07:02</sub> 
 
 </details>
 

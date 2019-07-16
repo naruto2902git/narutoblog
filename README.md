@@ -1,15 +1,18 @@
 
 # Naruto GitHub Issues Blog :tada::tada::tada:
 
-> :alarm_clock: 上次更新: 2019-07-15 00:00:23
+> :alarm_clock: 上次更新: 2019-07-16 00:01:13
 
-共 [6](https://github.com/naruto2902git/narutoblog/labels) 个标签, [6](https://github.com/naruto2902git/narutoblog/issues) 篇博文.
+共 [6](https://github.com/naruto2902git/narutoblog/labels) 个标签, [7](https://github.com/naruto2902git/narutoblog/issues) 篇博文.
 
 ## 置顶 :thumbsup: 
 - [Merge Join vs. Hash Join vs. Nested Loop Join](https://github.com/naruto2902git/narutoblog/issues/3)  <sup>0 :speech_balloon:</sup>  	 :alarm_clock:<sub>2019-07-03 12:23:12</sub> 
 - [Column-Stores vs. Row-Stores](https://github.com/naruto2902git/narutoblog/issues/2)  <sup>0 :speech_balloon:</sup>  	 :alarm_clock:<sub>2019-07-03 07:56:14</sub> 
 - [Spark Partitioner](https://github.com/naruto2902git/narutoblog/issues/1)  <sup>0 :speech_balloon:</sup>  	 :alarm_clock:<sub>2019-06-24 16:46:46</sub> 
 ## 最新 :new: 
+- [Spark java.util.concurrent.TimeoutException: Futures timed out after [300 seconds]](https://github.com/naruto2902git/narutoblog/issues/7) <sup>0 :speech_balloon:</sup>  			 :alarm_clock:<sub>2019-07-15 03:16:30</sub> 
+ :label: 	<sub>|</sub>
+
 - [Simple IOC AOP MVC ORM](https://github.com/naruto2902git/narutoblog/issues/6) <sup>0 :speech_balloon:</sup>  			 :alarm_clock:<sub>2019-07-09 12:19:08</sub> 
  :label: 	<sub>|</sub>
 
@@ -20,9 +23,6 @@
  :label: 	<sub>|</sub>
 
 - [Merge Join vs. Hash Join vs. Nested Loop Join](https://github.com/naruto2902git/narutoblog/issues/3) <sup>0 :speech_balloon:</sup>  			 :alarm_clock:<sub>2019-07-03 12:23:12</sub> 
- :label: 	<sub>|</sub><sub>[:+1:置顶](https://github.com/naruto2902git/narutoblog/labels/%3A%2B1%3A%E7%BD%AE%E9%A1%B6)	|	</sub>
-
-- [Column-Stores vs. Row-Stores](https://github.com/naruto2902git/narutoblog/issues/2) <sup>0 :speech_balloon:</sup>  			 :alarm_clock:<sub>2019-07-03 07:56:14</sub> 
  :label: 	<sub>|</sub><sub>[:+1:置顶](https://github.com/naruto2902git/narutoblog/labels/%3A%2B1%3A%E7%BD%AE%E9%A1%B6)	|	</sub>
 
 ## 分类  :card_file_box: 

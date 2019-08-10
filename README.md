@@ -1,7 +1,7 @@
 
 # Naruto GitHub Issues Blog :tada::tada::tada:
 
-> :alarm_clock: 上次更新: 2019-08-09 00:01:46
+> :alarm_clock: 上次更新: 2019-08-10 00:01:47
 
 共 [6](https://github.com/naruto2902git/narutoblog/labels) 个标签, [7](https://github.com/naruto2902git/narutoblog/issues) 篇博文.
 
